@@ -12,9 +12,6 @@ namespace PorkPork
 {
     public partial class Form1 : Form
     {
-
-        static Task sm;
-
         public Form1()
         {
             InitializeComponent();
@@ -41,6 +38,8 @@ namespace PorkPork
             //Runs the API calls
             var vision = new googleVision();
             var results = vision.AnalyzeImage(Image.FromFile(file));
+
+            
 
             foreach (var item in results.LabelAnnotations)
             {
