@@ -329,3 +329,4 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 /PorkPork/PorkPork/HackGT.json
+/PorkPork/PorkPork/credentials.json
